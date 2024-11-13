@@ -57,9 +57,7 @@ var Global = function () {
       headerOverlay = $('.js__header-overlay'),
       trigger = $('.js__trigger');
 
-    var menuItem = $('.s-header__nav-menu-item')
 
-    menuItem.on('click', function () { trigger.click}) 
     // menuItem.on('click', function () { overlay.toggleClass('-is-open'); headerOverlay.toggleClass('-is-open'); trigger.toggleClass('-is-active'); })
     trigger.on('click', function () {
       overlay.toggleClass('-is-open');
